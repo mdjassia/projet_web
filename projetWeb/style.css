@@ -1,0 +1,129 @@
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav {
+    position: absolute;
+    width: 100%;
+    padding : 20px 0px ; 
+    position:fixed;
+    z-index: 3000;
+    
+
+}
+body{
+    background: rgb(69,39,151);
+    background: radial-gradient(circle, rgba(69,39,151,1) 0%, rgba(0,9,43,1) 100%);
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+   
+}
+header{
+    background-image: url("./images/etoile.png");
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+
+}
+header img{
+    z-index: 1000;
+}
+img{
+    position: absolute;
+}
+
+a:hover{
+    color: pink;
+    cursor:crosshair;
+}
+div{
+    display:flex;
+    justify-content: space-around;
+}
+input[type="button"] {
+    z-index: 2000;
+  /*  
+    left: 45.8%; */
+    top: 75vh;
+    position: absolute;
+    background-color: rgba(0,9,43,1);
+    border: 1px solid rgba(0,9,43,1);
+    color: white;
+    font-size: 17px;
+    border-radius: 40pc;
+    width: 140px;
+    height: 47px;
+}
+h1{
+    color: white;
+    margin-top: 190px;
+    /* position: absolute; */
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 70px;
+    text-align: center;
+
+
+}
+.planet1{
+    position: absolute;
+    width: 200px;
+    height: 190px;
+    left: 0%;
+    top: 11%;
+}
+.planet2{
+    width: 335px;
+    height: 250px;
+    left: 75.4%;
+    top: 37%;
+}
+.planet3{
+    width: 80px;
+    height: 45px;
+    top: 58.5%;
+    left: 15%;
+}
+.planet4{
+    width: 140px;
+    height: 95px;
+    top: 5%;
+    left: 88%;
+}
+main {
+    position: relative;
+    z-index: 2000;
+    color: white;
+    top: 370px;
+    background-color: #021779;
+}
+
+.contain{
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    font-size: 20px; 
+}
+main ul {
+    padding: 0 100px;
+}
+.luna{
+    top: 315px;
+}
