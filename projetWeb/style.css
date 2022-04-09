@@ -44,8 +44,6 @@ header{
     position: relative;
     background-attachment: fixed;
     height: 100vh;
-    overflow: hidden;
-
 }
 header img{
     z-index: 1000;
@@ -119,7 +117,6 @@ main {
     top: 370px;
     background: linear-gradient(0deg, rgba(74,40,156,1) 0%, rgba(2,23,122,1) 100%);
 }
-
 .contain{
 
     display: flex;
@@ -134,4 +131,37 @@ main ul {
 }
 .luna{
     top: 315px;
+}
+footer{
+    background-color: rgb(0, 9,43, 1);
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10000000;
+    position: relative;
+    margin-top: 370px;
+}
+footer a{
+    color :blueviolet
+}
+footer h5{
+    font-size: 15px;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    /* changer la taille de la scroll bar l'affiner */
+
+}
+/* ce block css est fait pour changer la structure de la barre de scroll*/
+body::-webkit-scrollbar-track{
+    background-color: gray;
+    /* changer la couleur de la scroll bar */
+}
+body::-webkit-scrollbar-thumb{
+    background-color: pink;
+    border-radius: 20px;
+    /* changer la couleur de l'element qui viens dans scroll bar */
 }
