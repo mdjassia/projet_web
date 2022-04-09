@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@400;700&display=swap');
 *{
     font-family: 'Roboto';
+    line-height: 1.8;
 }
 
 nav ul {
@@ -8,8 +9,10 @@ nav ul {
     margin: 0;
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
-   
+    justify-content:center;
+}
+nav li{
+    margin: 0px 30px;
 }
 html{
     scroll-behavior: smooth;
@@ -20,13 +23,10 @@ a {
     font-size: 20px;
 }
 nav {
-    position: relative;
     width: 100%;
     padding : 20px 0px ; 
-    position:fixed;
+    position:absolute;
     z-index: 3000;
-    
-
 }
 body{
     background: rgb(69,39,151);
@@ -35,8 +35,7 @@ body{
     flex-direction: column;
     margin:0;
     padding:0;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 header{
     background-image: url("./images/etoile.png");
