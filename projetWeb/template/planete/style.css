@@ -79,3 +79,18 @@ figcaption{
 }
 
 
+body::-webkit-scrollbar{
+    width: 10px;
+    /* changer la taille de la scroll bar l'affiner */
+
+}
+/* ce block css est fait pour changer la structure de la barre de scroll*/
+body::-webkit-scrollbar-track{
+    background-color: gray;
+    /* changer la couleur de la scroll bar */
+}
+body::-webkit-scrollbar-thumb{
+    background-color: pink;
+    border-radius: 20px;
+    /* changer la couleur de l'element qui viens dans scroll bar */
+}
