@@ -118,7 +118,7 @@ main {
     z-index: 2000;
     color: white;
     top: 370px;
-    background-color: #021779;
+    background: linear-gradient(0deg, rgba(74,40,156,1) 0%, rgba(2,23,122,1) 100%);
 }
 
 .contain{
