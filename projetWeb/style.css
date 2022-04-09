@@ -6,13 +6,16 @@ nav ul {
     justify-content: space-evenly;
    
 }
+html{
+    scroll-behavior: smooth;
+}
 a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 nav {
-    position: absolute;
+    position: relative;
     width: 100%;
     padding : 20px 0px ; 
     position:fixed;
@@ -27,7 +30,8 @@ body{
     flex-direction: column;
     margin:0;
     padding:0;
-   
+    overflow: hidden;
+    
 }
 header{
     background-image: url("./images/etoile.png");
@@ -48,13 +52,12 @@ img{
 
 a:hover{
     color: pink;
-    cursor:crosshair;
 }
 div{
     display:flex;
     justify-content: space-around;
 }
-input[type="button"] {
+button {
     z-index: 2000;
   /*  
     left: 45.8%; */
@@ -67,6 +70,7 @@ input[type="button"] {
     border-radius: 40pc;
     width: 140px;
     height: 47px;
+  
 }
 h1{
     color: white;
