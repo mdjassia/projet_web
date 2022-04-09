@@ -17,6 +17,10 @@ for(var i=0 ; i<onglet.length ;i++)
     
     })
 }
+
+/* ce block d'instruction nous permet de rendre le side bar impeu dinamique et lui permetre de se deplacer 
+avec la page pour rendre la navigation plus facile */
+
 menu = document.querySelector('.nav')
 contite = window.scrollY
 top = menu.getBoundingClientRect().y 

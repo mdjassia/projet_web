@@ -3,6 +3,7 @@
     font-family: 'Roboto';
     color: #fff;
     line-height: 1.8;
+    margin-top: 0px;
 }
 body{  
     background-image: url("img/background.png");
@@ -12,6 +13,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-attachment: fixed;
 }
 header{
     position: relative;
@@ -149,3 +151,39 @@ main{
 
 
 
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;  
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav {
+    position: relative;
+    width: 100%;
+    padding : 20px 0px ; 
+    z-index: 3000;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    /* changer la taille de la scroll bar l'affiner */
+
+}
+/* ce block css est fait pour changer la structure de la barre de scroll*/
+body::-webkit-scrollbar-track{
+    background-color: gray;
+    /* changer la couleur de la scroll bar */
+}
+body::-webkit-scrollbar-thumb{
+    background-color: pink;
+    border-radius: 20px;
+    /* changer la couleur de l'element qui viens dans scroll bar */
+}
