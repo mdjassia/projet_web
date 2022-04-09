@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@400;700&display=swap');
+*{
+    font-family: 'Roboto';
+}
+
 nav ul {
     padding: 0;
     margin: 0;
@@ -113,7 +118,7 @@ main {
     z-index: 2000;
     color: white;
     top: 370px;
-    background-color: #021779;
+    background: linear-gradient(0deg, rgba(74,40,156,1) 0%, rgba(2,23,122,1) 100%);
 }
 
 .contain{
