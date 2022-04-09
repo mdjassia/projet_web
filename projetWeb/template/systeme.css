@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@400;700&display=swap');
+*{
+    font-family: 'Roboto';
+    color: #fff;
+    line-height: 1.8;
+}
+body{  
+    background-image: url("img/background.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+}
+
+header h1{
+    font-size: 70px;
+    color: #fff;
+}
+main{
+    height: fit-content;
+    background-color: #00092b;
+    width:95%;
+}
+.container {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.container ul{
+    margin: 20px 0px;
+}
+.container li{
+    margin: 15px 0px;
+}
+.container span{
+    font-weight: 600;
+    color: #4a289c;
+}
+.container > h1{
+    font-size: 38px;
+    color: #fff;
+}
+.container > div{
+    margin: 50px 50px;
+}
+.container > p{
+    margin:0px 40px 40px 40px;
+    color: #fff;
+    text-indent: 30px;
+}
+.planets{
+    background-image: url("img/systhemeSolaireFond.png");
+    height: 500px;
+    width: 500px;
+    border: 2px #fff solid;
+}
+.planetInfo{
+    height: 500px;
+    width: 300px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.planets a:nth-child(2) img{
+    position: relative;
+    right:20px;
+    top: 30px;
+}
+.planets a:nth-child(3) img{
+    position: relative;
+    left: 25px;
+}
+.planets a:nth-child(4) img{
+    position: relative;
+    right: 140px;
+    top: 170px;
+}
+.planets a:nth-child(5) img{
+    position: relative;
+    top: 160px;
+    right: 65px;
+}
+.planets a:nth-child(6) img{
+    position: relative;
+    top: 65px;
+    left:10px;
+}
+.planets a:nth-child(7) img{
+    position: relative;
+    top: 270px;
+    left:90px;
+}
+.planets a:nth-child(8) img{
+    position: relative;
+    top: 160px;
+    left:210px;
+}
+.planets a:nth-child(9) img{
+    position: relative;
+    top: 290px;
+    left:90px;
+}
+.planetInfo h1{
+    margin-top: 50px ;
+    color: #4a289c;
+    font-size: 28px;
+}
+.planetInfo div > p{
+    margin: 0px 20px;
+    color: #00092b;
+    line-height: 1.2;
+}
+.planetInfo  h2{
+    color: #00092b;
+}
+.planetInfo div{
+    color: #00092b;
+    display: none;
+    margin-top: -10px;
+}
+.planetInfo div :nth-child(3){
+    font-weight: 600;
+    font-size:15px ;
+    margin-top:30px ;
+    text-align: center;
+    color: #4a289c;
+
+}
+.planetInfo .active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+
+

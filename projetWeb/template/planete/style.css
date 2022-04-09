@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@400;700&display=swap');
+*{
+    font-family: 'Roboto';
+    color: #fff;
+    line-height: 1.8;
+    margin-top: 0px;
+}
+body{  
+    background-image: url("../img/background.png"); 
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header{
+    background-color: rgba(0,9,43,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93%;
+    margin-top:unset;
+    font-size: 2vw;
+}
+main{
+    background-color: rgba(0,9,43,1);  
+    height:fit-content; 
+    width:93%;
+    font-size: 1.4vw;
+}
+
+.descraption{
+    margin: 30px 50px;
+    display: flex;
+}
+section{
+    margin: 10px 50px;
+}
+section img{
+    margin-right: 20px;
+    width:450px;
+    height:fit-content;
+}
+figure{
+    margin: 0px;
+    padding: 0px;
+}
+table,td{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 450px;
+}
+table{
+    margin: 20px 0px;
+}
+td{
+    height: 20px;
+}
+caption{
+    background-color: #fff;
+    color: rgba(0,9,43,1);
+    font-size: 2vw;
+    margin-bottom: 5px;
+}
+figcaption{
+    font-size: 1.2vw;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
