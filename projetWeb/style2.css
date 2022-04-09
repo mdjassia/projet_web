@@ -10,7 +10,10 @@
     margin: 0;
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.nav li{
+    margin: 0px 30px;
 }
 html{
     scroll-behavior: smooth;
@@ -20,10 +23,13 @@ a {
     color: white;
     font-size: 20px;
 }
+a:hover{
+    color: pink;
+}
 .nav {
-    position: relative;
+    position:absolute;
     width: 100%;
-    padding : 20px 0px ; 
+    padding : 20px 0px ;
     z-index: 3000;
 }
 
@@ -41,13 +47,15 @@ header{
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 30vh;
+    flex-direction: column;
+    height: 40vh;
     width: 100%;
 }
 header h1{
     font-size: 70px;
     color: #fff;
+    margin-top: 50PX;
+    text-align: center;
 }
 main{
     background-color:rgb(0, 9,43, 1) ;
