@@ -124,6 +124,9 @@ main{
     flex-direction: column;
     border-radius: 5px;
 }
+
+/* positionement des planetes */
+
 .planets a:nth-child(2) img{
     position: relative;
     right:20px;
@@ -163,6 +166,8 @@ main{
     top: 290px;
     left:90px;
 }
+
+/* style de la div qui contien les infos de la planette */
 .planetInfo h1{
     margin-top: 50px ;
     color: #4a289c;
@@ -178,9 +183,11 @@ main{
 }
 .planetInfo div{
     color: #00092b;
-    display: none;
+    /* le display est none cas la div de base n est pas visible elle est visible que q'on hover dessu*/
+    display: none;  
     margin-top: -10px;
 }
+
 .planetInfo div :nth-child(3){
     font-weight: 600;
     font-size:15px ;
@@ -189,12 +196,16 @@ main{
     color: #4a289c;
 
 }
+
+/* Quand on hover sur une planette la class active est attribuer et la div qui cntien l'invo de vien visible donc display visible */
 .planetInfo .active{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 } 
+
+/* syle du footer */
 
 footer{
     background-color:rgb(0, 9,43, 1) ;
@@ -210,4 +221,5 @@ footer a{
     color :blueviolet
 }
 footer h5{
-    font-size: 15px}
+    font-size: 15px
+}

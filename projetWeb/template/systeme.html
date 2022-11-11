@@ -6,6 +6,7 @@
     <title>Système solaire</title>
 </head>
 <body>
+    <!-- navbar du site web -->
     <nav class="nav">
         <ul>
             <li class="active"><a href="./index.html">home</a></li>
@@ -16,10 +17,16 @@
             <li><a href="./etoile.html">etoile</a></li>
         </ul>
     </nav>    
+
+    <!-- header contenant le titre de la page -->
     <header>
         <h1>SYSTEME SOLAIRE</h1>
     </header>
+
     <main>
+
+        <!-- section qui contient une description du sujet titre et paragraphe -->
+
         <section class="container">
             <h1>C'est quoi le systeme solaire ?</h1>
             <div>
@@ -50,10 +57,21 @@
             </div>
             
         </section>
+
+        <!-- section qui contient ne autre partie de la page un autre titre , pagarphe ... -->
+
         <section class="container" id="introPlanet">
             <h1>C’est quoi une planete ?</h1>
             <p>Une "planète" est un corps céleste en orbite autour du Soleil, avec une masse assez importante pour que son auto gravité forme une sphère (ou un équilibre hydrostatique) et il a nettoyé de son orbite tous les astres plus petits. Cette définition fixe à 8 le nombre de planètes du Système solaire.
             </p>
+
+            <!-- Nous voudrions cree une nouvelle facon de navigation , ca sera une image on on posionnera des planettes
+            si on hover sur une planette une petite description s'affiche sur un autre espace , e si o click sur la planette elle nous
+            derrige a la page de la planette en question  -->
+            
+            <!-- pour cette div elle contien les images  des planette avec le lien qui contien un link bookmark our la navigation inerne en cas de hover
+            et un onclick qui si on click nous rederige a la page de la planette  -->
+
             <div class="planets" id="planetes">
                 <a href="#soleil" onclick="location.href = 'planete/soleil.html';"><img src="img/soleil.png" alt="soleil"></a>
                 <a href="#mercury" onclick="location.href = 'planete/mercure.html';"><img src="img/mercury.png" alt="mercure"></a>
@@ -65,6 +83,9 @@
                 <a href="#uranus" onclick="location.href = 'planete/uranus.html';"><img src="img/uranus.png" alt="uranus"></a>
                 <a href="#neptune" onclick="location.href = 'planete/neptune.html';"><img src="img/neptune.png" alt="neptune"></a>
             </div>
+
+            <!-- cette div contien pls div qui contien les informations sur les planettes , chaque div a un id qui renvoie a une planette precise  -->
+
             <div class="planetInfo">
                 <h1>INFORMATION</h1>
                 <div class="active" style="text-align:center;">
@@ -130,6 +151,8 @@
 
         </section>
 
+        <!-- footer de la page -->
+
     </main>
     <footer>
         <h5> A propos </h5>
@@ -137,7 +160,9 @@
         <p>LABRI Ahlem <a href="mailto:mdjassia@gmail.com">ahlemlabri@gmail.com</a></p>
     </footer>
 
-
+    <!-- ce script contient du code en javascript qui nous permet de relier chaque <a> qui contien l'image d'une planette
+        et la div qui contien l'id correspendant -->
+    
     <script>
         (function(){
             var afficher =function(a){
